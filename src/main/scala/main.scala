@@ -4,6 +4,9 @@ import Util.leftpad
 
 import scala.io.AnsiColor.*
 
+// siehe Übersicht
+// https://stackoverflow.com/questions/4842424/list-of-ansi-color-escape-sequences
+
 @main
 def main(): Unit =
   println("""
