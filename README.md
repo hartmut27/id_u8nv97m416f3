@@ -3,7 +3,7 @@
 
 Depending on your Console or IDE application, ANSI colors might be displayed differently.
 
-Here is a small `Scala` test frame helping identify ANSI color codes by example printout ("rainbowing").
+Here is a small `Scala` test frame helping identify `ANSI` color codes by example printout ("rainbowing").
 
 The main dimensions for the permutations are `Normal`, `Bold`, `Reversed`.
 
