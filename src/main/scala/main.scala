@@ -5,9 +5,13 @@ import scala.io.AnsiColor._
 
 @main
 def main(): Unit =
-
-  for x <- 1 to 128 do
-    val nn = "%02d".format(x)
-    println(s"$RESET\\u001b[${nn}m \u001b[${nn}m...Beispiel...$RESET")
+  
+  // \u001b[${nn}m
+  
+  for n <- 1 to 128 do
+    val f = s"\u001b[${n}m"
+    val g = s"$RESET" + f + "Lorem" + s"$RESET" + " "
+    /*print(s"$RESET${f}Lorem Ipsum $n $RESET")*/
+    print(g)
   
   
