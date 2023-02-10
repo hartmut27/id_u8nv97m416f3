@@ -5,17 +5,17 @@ import Util.leftpad
 import scala.io.AnsiColor.*
 
 @main
-def main(): Unit = {
-
-  // \u001b[${nn}m
-
-  for n <- 1 to 128 do
-    val ansicode = s"\u001b[${n}m"
-    val descr = leftpad(
-      payload = n.toString,
-      target_len = 3
-    )
-    val token = s"$RESET" + ansicode + descr + s"$RESET" + " "
-    print(token)
-
-}
+def main(): Unit =
+  for reverse <- 0 to 1 do
+    for bold <- 0 to 1 do
+      for n <- 1 to 128 do
+        val ansicode = s"\u001b[${n}m"
+        val descr = leftpad(
+          payload = n.toString,
+          target_len = 3
+        )
+        val token = s"$RESET" +
+          (if bold == 1 then BOLD else "") +
+          (if reverse == 1 then REVERSED else "") +
+          ansicode + descr + s"$RESET" + " "
+        print(token)
