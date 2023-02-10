@@ -1,7 +1,7 @@
 # What's about
 
 
-Depending on your Console or IDE application, `ANSI` colors might be displayed differently in Console Log Outputs.
+Depending on your Console or IDE application and your operating system, `ANSI` colors might be displayed differently in Console Log Outputs.
 
 Here is a small `Scala` test frame helping identify `ANSI` color codes by example printout ("rainbowing").
 
