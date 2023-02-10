@@ -11,7 +11,6 @@ def main(): Unit =
   for n <- 1 to 128 do
     val f = s"\u001b[${n}m"
     val g = s"$RESET" + f + "Lorem" + s"$RESET" + " "
-    /*print(s"$RESET${f}Lorem Ipsum $n $RESET")*/
     print(g)
   
   
