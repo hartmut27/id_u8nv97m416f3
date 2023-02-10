@@ -5,7 +5,7 @@ Depending on your Console or IDE application, `ANSI` colors might be displayed d
 
 Here is a small `Scala` test frame helping identify `ANSI` color codes by example printout ("rainbowing").
 
-The main dimensions for the permutations are `Normal`, `Bold`, `Reversed`.
+The main dimensions for the color code permutations are `Bold` Yes or No?, `Reversed` Yes or No?.
 
 __No blinking__ 
 
