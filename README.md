@@ -11,4 +11,7 @@ __No blinking__
 
   Since `IntelliJ` log output is one of the target outputs, and `Blinking` is unsupported in `IntelliJ` (as far as I have noticed), `Blinking` is ommited here. 
 
+__IntelliJ Console Output Example__
+
 ![](Screenshot_2023-02-10_19-47-28.png)
+
