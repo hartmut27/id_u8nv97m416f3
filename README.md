@@ -15,3 +15,12 @@ __IntelliJ Console Output Example__
 
 ![](Screenshot_2023-02-10_19-47-28.png)
 
+
+__Konsole Console Output Example__
+
+Linux Manjaro<br>
+Number 5 is blinking, but You can't see it here.
+
+![](Screenshot_2023-02-10_19-56-35.png)
+
+
