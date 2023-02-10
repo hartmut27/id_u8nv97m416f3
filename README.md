@@ -1,7 +1,7 @@
 # Whats about
 
 
-Depending on your Console or IDE application, ANSI colors might be displayed differently.
+Depending on your Console or IDE application, `ANSI` colors might be displayed differently.
 
 Here is a small `Scala` test frame helping identify `ANSI` color codes by example printout ("rainbowing").
 
