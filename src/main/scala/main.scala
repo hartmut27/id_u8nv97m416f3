@@ -6,6 +6,11 @@ import scala.io.AnsiColor.*
 
 @main
 def main(): Unit =
+  println("""
+      |b = Bold
+      |r = Reversed
+      |""".stripMargin)
+
   var vorgang: Int = 0
   for reverse <- 0 to 1 do
     for bold <- 0 to 1 do
@@ -18,6 +23,9 @@ def main(): Unit =
         val token = s"$RESET" +
           (if bold == 1 then BOLD else "") +
           (if reverse == 1 then REVERSED else "") +
-          ansicode + descr + s"$RESET" + " "
+          ansicode + " " + descr + " " +
+          (if bold == 1 then "b" else " ") +
+          (if reverse == 1 then "r" else " ") +
+          s"$RESET" + " "
         vorgang += 1
-        if (vorgang % 8 == 0) println(token) else print(token)
+        print(token + (if (vorgang % 8 == 0) "\n" else ""))
