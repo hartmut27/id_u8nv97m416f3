@@ -1,4 +1,4 @@
-# Whats about
+# What's about
 
 
 Depending on your Console or IDE application, `ANSI` colors might be displayed differently.
