@@ -1,1 +1,6 @@
-addSbtPlugin("org.jetbrains.scala" % "sbt-ide-settings" % "1.1.1")
+//
+
+// id_ehjqegrg799s
+addSbtPlugin(
+  "org.jetbrains.scala" % "sbt-ide-settings" % "1.1.1"
+)

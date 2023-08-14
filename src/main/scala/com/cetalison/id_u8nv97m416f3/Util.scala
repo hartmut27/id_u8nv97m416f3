@@ -8,7 +8,10 @@ object Util:
       target_len: Int,
       left_padding_char: Char = ' '
   ): String =
-    val padding_number = target_len - payload.length
+  
+    val padding_number =
+      target_len - payload.length
     assert(padding_number >= 0)
-    val fill = left_padding_char.toString * padding_number
+    val fill =
+      left_padding_char.toString * padding_number
     fill + payload
