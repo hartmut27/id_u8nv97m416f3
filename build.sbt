@@ -8,5 +8,6 @@ lazy val id_u8nv97m416f3 = (project in file("."))
   .settings(
     name         := "id_u8nv97m416f3",
     version      := "0.1.0-SNAPSHOT",
+    organization := "com.cetalison",
     scalaVersion := "3.3.0"
   )
